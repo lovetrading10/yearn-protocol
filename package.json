@@ -1,0 +1,23 @@
+{
+  "name": "yearn-protocol-nodejs",
+  "version": "0.0.0",
+  "private": true,
+  "description": "yearn protocol nodejs version",
+  "files": ["packages/*"],
+  "scripts": {
+    "install": "npx lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/yearn-protocol-nodejs.git"
+  },
+  "author": "Yearn Finance",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sambacha/yearn-protocol-nodejs/issues"
+  },
+  "homepage": "https://github.com/sambacha/yearn-protocol-nodejs#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
